@@ -1,0 +1,46 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    border: 1px solid gray;
+    font-family: 'Montserrat';
+    padding: 0.7rem 1rem;
+}
+.itemDone {
+    background-color: #bec5c6;
+}
+.itemDone .text {
+    text-decoration: line-through;
+}
+
+.text {
+    width: 80%;
+    color: gray;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #42b3f4;
+}
+.doneBtn {
+    align-self: center;
+    padding: 0.5rem 0.8rem;
+    background-color: #32a527; 
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+.removeBtn {
+    align-self: center;
+    padding: 0.5rem 0.8rem;
+    background-color: #e00d0d;;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.iconBtn{
+    display: block;
+    width: 14px;
+    height: 14px;
+}

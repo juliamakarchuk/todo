@@ -1,0 +1,14 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.info p {
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 500;
+}
+.info span {
+    font-weight: 800;
+    color: #128596;
+}

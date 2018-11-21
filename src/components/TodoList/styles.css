@@ -1,0 +1,18 @@
+.anim-enter {
+    opacity: 0.01;
+}
+.anim-enter.anim-enter-active {
+   opacity: 2;
+   transition: opacity 1s ease-in-out;
+}
+
+.anim-leave{
+  opacity: 2;
+}
+.anim-leave.anim-leave-active {
+  opacity: 0.1;
+  transition: opacity 0.2s ease-out;
+}
+.Visible{
+  display: block;
+}
