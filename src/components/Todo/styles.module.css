@@ -5,6 +5,7 @@
     border: 1px solid gray;
     font-family: 'Montserrat';
     padding: 0.7rem 1rem;
+    outline: none;
 }
 .itemDone {
     background-color: #bec5c6;

@@ -12,7 +12,10 @@ export default class AddTodoForm extends Component{
 
     handleInput = (evt) => {
       let value  = evt.target.value;
-      if(value.split(' ').length > 50) alert ('Too long todo');
+      if(value.split(' ').length > 50 && value.split(' ').join('').length>0) {
+        alert ('Too long todo');
+        return false;
+      }
       this.setState({
           inputValue: value
       })
